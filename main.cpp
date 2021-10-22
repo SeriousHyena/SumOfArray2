@@ -31,7 +31,7 @@ int sumArray(int arrayInt, int sumRef)			//iterate through the array and sum its
 {
 	for (int i = 0; i < myArray.size(); i++)
 	{
-		sumRef += myArray[i];					//send sum to reference variable in local namespace
+		sumRef += myArray[i];					//send sum to reference variable
 	}
 
 	return sumRef;
@@ -42,7 +42,7 @@ int sumArray(double a, int sumDir)				//iterate through the array and sum its co
 {
 	for (int i = 0; i < myArray.size(); i++)
 	{
-		sumDir += myArray[i];					//send the sum to direct variable in global namespace
+		sumDir += myArray[i];					//send the sum to direct variable 
 	}
 
 	return sumDir;
