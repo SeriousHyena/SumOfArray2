@@ -27,7 +27,7 @@ int main()
 }
 
 //place functions here
-int sumArray(int arrayInt, int sumRef)
+int sumArray(int arrayInt, int sumRef)			//iterate through the array and sum its contents
 {
 	for (int i = 0; i < myArray.size(); i++)
 	{
@@ -38,7 +38,7 @@ int sumArray(int arrayInt, int sumRef)
 }
 
 //this is the overloaded function
-int sumArray(double a, int sumDir)
+int sumArray(double a, int sumDir)				//iterate through the array and sum its contents
 {
 	for (int i = 0; i < myArray.size(); i++)
 	{
